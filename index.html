@@ -13,6 +13,7 @@
     <div class="main-body">
         <div class="calcu">
             <input id="screen" type="text">
+            <h1 id="active"></h1>
             <div class="buttons">
                 <div class="row">
                 <button class="btn" onclick="clicked(7)">7</button>
@@ -31,11 +32,11 @@
                 <button class="btn" onclick="clicked(2)">2</button>
                 <button class="btn" onclick="clicked(3)">3</button>
                 <button class="btn" onclick='addClicked("-")'>-</button>
-            </div>
+            </div> 
             <div class="row">
                 <button class="btn" onclick="clicked('.')">.</button>
                 <button class="btn" onclick="clicked(0)">0</button>
-                <button class="btn" onclick="clicked('<--')"><--</button>
+                <button class="btn" onclick="cleared('')"><--</button>
                 <button class="btn" onclick='addClicked("+")'>+</button>
             </div>
             <div class="row">

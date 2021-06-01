@@ -1,9 +1,10 @@
 .calcu{
     width: 500px;
     height: 550px;
-    background: #ef9a00;
+    background: #000000;
     margin-left: 26%;
     margin-top: 50px;
+    border-radius: 20px;
 }
 #screen{
     width: 87%;
@@ -13,6 +14,8 @@
     pointer-events: none;
     border: white;
     font-size: 54px;
+    border-radius: 20px;
+    padding-left: 10px;
 }
 .row{
     margin-left: 1%;
@@ -23,4 +26,13 @@
     margin-left: 5%;
     margin-top: 5%;
     font-size: 40px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+html:focus{
+    outline:none; 
 }

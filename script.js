@@ -16,9 +16,10 @@ function clicked(val)
 }
 function addClicked(op){
     inp1=document.getElementById('screen').value
-    inp=parseInt(inp1)
+    inp=parseFloat(inp1)
     document.getElementById('screen').value=""
     operation=op
+    document.getElementById('screen') = operation
     console.log(operation);
 }
 function cleared(){
@@ -26,7 +27,7 @@ function cleared(){
 }
 function equalClicked(){
     text1=document.getElementById('screen').value
-    text=parseInt(text1)
+    text=parseFloat(text1)
     if (operation === "+") {
         var result=text+inp
     }
